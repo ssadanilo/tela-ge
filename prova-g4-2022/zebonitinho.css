@@ -1,0 +1,158 @@
+body { /* Define a fonte do corpo do documento como Arial ou sans-serif */
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove a margem padrão do corpo */
+    padding: 0; /* Remove o preenchimento padrão do corpo */
+}
+
+header { /* Define o estilo do cabeçalho */
+    background-color: white; /* Define a cor de fundo do cabeçalho como branco */
+    padding: 10px 0; /* Adiciona preenchimento acima e abaixo do cabeçalho */
+}
+
+.links-01 { /* Define o estilo dos links no cabeçalho */
+    display: flex; /* Define um layout flexível para os itens filhos */
+    justify-content: left; /* Alinha os itens à esquerda */
+    margin-bottom: 10px; /* Adiciona margem abaixo do contêiner links-01 */
+    align-items: center;
+}
+
+.links-01 div { /* Define o estilo das divs dentro de links-01 */
+    padding: 10px; /* Adiciona preenchimento dentro de cada div */
+    border: 1px solid white; /* Adiciona uma borda branca ao redor de cada div */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+.links-01 div a { /* Define o estilo dos links dentro de links-01 */
+    text-decoration: none; /* Remove sublinhado do link */
+}
+
+.link-globo a { color: blue; } /* Define a cor do link da globo.com como azul */
+.link-g1 a { color: crimson; } /* Define a cor do link do g1 como carmesim */
+.link-ge a { color: green; } /* Define a cor do link do ge como verde */
+.link-gshow a { color: orange; } /* Define a cor do link do gshow como laranja */
+.link-globoplay a { color: red; } /* Define a cor do link do globoplay como vermelho */
+.link-cartola a { color: brown; } /* Define a cor do link do cartola como marrom */
+.link-sportv a { color: black; } /* Define a cor do link do sportv como preto */
+.assine-ja a { color: black; } /* Define a cor do link do sportv como preto */
+.conta-globo a { color: black; } /* Define a cor do link do sportv como preto */
+
+.assine-ja {
+    margin-left: auto; /* Alinha à direita */
+    margin-right: 70px; /* Ajuste o espaçamento conforme necessário */
+}
+
+.conta-globo {
+    margin-left: -10px; /* Ajuste para compensar o espaçamento negativo */
+}
+
+
+
+.links-02 { /* Define o estilo do segundo conjunto de links no cabeçalho */
+    display: flex; /* Define um layout flexível para os itens filhos */
+    justify-content: space-between; /* Distribui os itens com espaço entre eles */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    font-weight: bolder; /* Define o peso da fonte como mais ousado */
+    color: white; /* Define a cor do texto como branco */
+    background-color: rgb(14, 172, 14); /* Define a cor de fundo como verde */
+    padding: 15px 0; /* Adiciona preenchimento acima e abaixo */
+    width: 100%; /* Garante que a faixa cubra toda a largura */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+.links-02 .left-aligned { 
+    margin-left: 10px; /* Adiciona margem à esquerda dos itens alinhados à esquerda */
+    text-decoration: none; /* Remove sublinhado do link */
+} 
+.left-aligned:first-child { 
+    margin-right: 20px; /* Adiciona margem à direita do primeiro item */
+    text-decoration: none; /* Remove sublinhado do link */
+} 
+.links-02 .center-aligned { /* Define o estilo do item centralizado */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    font-size: 40px; /* Define o tamanho da fonte como 40 pixels */
+}
+
+.ge-sem-link {
+    text-decoration: none; /* Remove sublinhado do link */
+    color: white; /* Mantém a cor do texto */
+}
+
+.buscar {
+    background-color: rgb(10, 145, 10);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px;
+    border-radius: 2px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+.links-03 { /* Define o estilo do terceiro conjunto de links no cabeçalho */
+    display: flex; /* Define um layout flexível para os itens filhos */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    margin-bottom: 10px; /* Adiciona margem abaixo */
+    border-bottom: 1px solid lightgray; /* Adiciona uma borda na parte inferior */
+    padding: 20px; /* Adiciona preenchimento */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+.link-globoplay { /* Define o estilo do link globoplay */
+  
+    font-size: 20px; /* Define o tamanho da fonte como 20 pixels */
+    color: red; /* Define a cor do texto como vermelho */
+    margin-right: 10px; /* Adiciona margem à direita */
+}
+
+.link-assine {
+    color: red; /* Define a cor do texto como vermelho */
+    margin-left: auto; /* Adiciona margem à direita */
+    border: 1px solid lightgray; /* Adiciona uma borda ao redor */
+    width: 100px; /* Define a largura */
+    height: 40px; /* Define a altura */
+    text-align: center; /* Centraliza o texto */
+    background-color: white; /* Define a cor de fundo como branco */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.assine-sem-link {
+    text-decoration: none; /* Remove sublinhado do link */
+    color: red;
+}
+
+main { /* Define o estilo da seção principal */
+    display: flex; /* Define um layout flexível para os itens filhos */
+    flex-wrap: wrap; /* Permite que os itens sejam dispostos em várias linhas */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    gap: 20px; /* Define um espaço entre os itens */
+    padding: 20px; /* Adiciona preenchimento */
+    background-color: white; /* Define a cor de fundo como branco */
+}
+
+.brasileirao, .time { /* Define o estilo das seções de time */
+    border: 1px solid lightgray; /* Adiciona uma borda ao redor */
+    padding: 20px; /* Adiciona preenchimento */
+    width: 200px; /* Define a largura */
+    text-align: center; /* Centraliza o texto */
+    background-color: white; /* Define a cor de fundo como branco */
+}
+
+.brasileirao { /* Define o estilo da seção G4 Brasileirão */
+    padding-top: 90px; /* Adiciona preenchimento na parte superior */
+    background-color: rgb(14, 172, 14); /* Define a cor de fundo como verde */
+    color: white; /* Define a cor do texto como branco */
+}
+
+.brasileirao h1 { margin-top: 0; } /* Remove a margem superior do título */
+.time h2 { margin-top: 0; } /* Remove a margem superior do título */
+
+footer { /* Define o estilo do rodapé */
+    text-align: center; /* Alinha o texto ao centro */
+    font-size: 12px; /* Define o tamanho da fonte como 12 pixels */
+    margin-top: 40px; /* Adiciona margem superior */
+}
